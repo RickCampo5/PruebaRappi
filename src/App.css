@@ -23,6 +23,16 @@
   color: #61dafb;
 }
 
+.dropdown-menu {
+  width: 300px;
+}
+
+@media(max-width: 960px) {
+  .dropdown-menu {
+    width: auto;
+  }
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

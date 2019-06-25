@@ -1,0 +1,81 @@
+{ "categories": [
+	{
+		"id": 1,
+		"name": "Bebidas",
+		"photoUrl": "https://res.cloudinary.com/dfjzvlip6/image/upload/v1561486544/Rappi/bebidas.jpg",
+		"sublevels": [
+			{
+				"id": 14,
+				"name": "Gaseosas",
+				"sublevels": [
+					{
+						"id": 2,
+						"name": "Con azúcar"
+					},
+					{
+						"id": 3,
+						"name": "Sin azúcar"
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 2,
+		"name": "Desayunos",
+		"photoUrl": "https://res.cloudinary.com/dfjzvlip6/image/upload/v1561486544/Rappi/desayunos.jpg",
+		"sublevels": [
+			{
+				"id": 4,
+				"name": "Fake 1",
+				"sublevels": [
+					{
+						"id": 5,
+						"name": "Fake 2"
+					},
+					{
+						"id": 6,
+						"name": "Fake 3",
+						"sublevels": [
+							{
+								"id": 7,
+								"name": "Fake 4"
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 8,
+		"name": "Almuerzos",
+		"photoUrl": "https://res.cloudinary.com/dfjzvlip6/image/upload/v1561486544/Rappi/almuerzos.jpg",
+		"sublevels": [
+			{
+				"id": 9,
+				"name": "Fake 5"
+			},
+			{
+				"id": 10,
+				"name": "Fake 6"
+			}
+		]
+	},
+	{
+		"id": 11,
+		"name": "Vinos",
+		"photoUrl": "https://res.cloudinary.com/dfjzvlip6/image/upload/v1561486544/Rappi/vinos.jpg",
+		"sublevels": [
+			{
+				"id": 12,
+				"name": "Fake 8"
+			},
+			{
+				"id": 13,
+				"name": "Fake 9"
+			}
+		]
+	}
+]
+}

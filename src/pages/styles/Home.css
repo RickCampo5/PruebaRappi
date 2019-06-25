@@ -1,0 +1,16 @@
+.Home {
+  padding-bottom: 5%;
+}
+
+.carousell {
+  height: 50%;
+}
+
+.grid-home {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
