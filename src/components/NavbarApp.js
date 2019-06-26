@@ -54,7 +54,7 @@ class NavbarApp extends React.Component {
             <NestedDropdown categories={categories} />
             <Greeting isLogged={log} userData={userData}/>
             <Nav.Link>
-              <Link to="/carrito">Carrito</Link>
+              <Link to="/cart">Carrito</Link>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

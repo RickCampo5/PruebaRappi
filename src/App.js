@@ -5,8 +5,9 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import Layout from './components/Layout';
 
 import Home from './pages/Home';
-import ProductDetail from './pages/ProductDetail'
-import CategorieDetail from './pages/CategorieDetail'
+import ProductDetail from './pages/ProductDetail';
+import CategorieDetail from './pages/CategorieDetail';
+import Cart from './pages/Cart';
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path='/product/:id' component={ProductDetail}/>
-          <Route path='/categorie/:id' component={CategorieDetail}/>
+          <Route path='/categorie/:id' render={(props) => <CategorieDetail categorieId={props.match.params.id}{...props}/>}/>
+          <Route path='/cart' component={Cart}/>
         </Switch>
       </Layout>
     </BrowserRouter>

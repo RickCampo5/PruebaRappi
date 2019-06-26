@@ -2,12 +2,14 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import { Card } from 'react-bootstrap';
+
+import './styles/CategorieCard.css'
  
 class CategorieCard extends React.Component {
   render(){
     const { name, photoUrl, id } = this.props
     return(
-      <Card style={{ width: '18rem' }}>
+      <Card className="CategorieCard">
         <Card.Img variant="top" src={photoUrl} />
         <Card.Body>
           <Card.Title>{name}</Card.Title>

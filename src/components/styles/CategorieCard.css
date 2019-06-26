@@ -1,0 +1,10 @@
+.CategorieCard {
+  width: 30%;
+  padding: 3%;
+}
+
+@media(max-width: 960px) {
+  .CategorieCard {
+    width: auto;
+  }
+}

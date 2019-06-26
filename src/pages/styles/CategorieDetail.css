@@ -1,0 +1,10 @@
+.grid-categorie {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.categorie {
+  padding: 5%;
+}
