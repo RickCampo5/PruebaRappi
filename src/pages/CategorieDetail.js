@@ -82,6 +82,9 @@ class CategorieDetail extends React.Component {
           <h3>Subcategorias</h3>
           <CategorieGrid className="grid-categorie" categories={categorie.sublevels}/>
           <h3>Productos</h3>
+          <div className>
+
+          </div>
           <ProductGrid className="grid-categorie" products={products}/>
         </div>
       )
